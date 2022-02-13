@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/zomoto")
+@RequestMapping("/fd")
 public class Restarent1Controller {
 
     @GetMapping("")
     String welcomeMsz(){
-        return "welcome to zomato services";
+        return "welcome to fd services";
     }
 }
